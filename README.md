@@ -1,4 +1,4 @@
 # Hackthon-2015-sample-2
 Storing data into admin panel in sqlite3.
 
-![Screenshot](http://full/path/to/img.jpg "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/Shekharrajak/Hackthon-2015-sample-2/master/static/images/Screenshot%20from%202015-08-23%2002%3A26%3A32.png.jpg "Screenshot")
