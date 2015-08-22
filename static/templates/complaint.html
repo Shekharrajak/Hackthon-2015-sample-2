@@ -13,9 +13,7 @@
 	
 <form action="" method="post" onsubmit="">{% csrf_token %}
 		
-email = EmailMessage('Hello', 'Body goes here', 'from@example.com',
-            ['to1@example.com', 'shekharstudy@ymail.com'], ['bcc@example.com'],
-            reply_to=['another@example.com'], headers={'Message-ID': 'foo'})
+
 		
 		<p><input name="email" value="Enter your e-mail" type="text" id=""/></p>
 		<p><input name="name" value="Enter your name" type="text" id=""/></p>
@@ -23,7 +21,7 @@ email = EmailMessage('Hello', 'Body goes here', 'from@example.com',
 		<p><input name="city" value="Enter your city" type="text" id=""/></p>
 		<p><input name="complaint_type" value="Enter type of complaint" type="text" id=""/></p>
 		<p><input class="form-control input-lg" name="complaint_desc" value="complaint desc here" type="text" id=""/></p>
-		<p><input type="submit" value="Send complaint"/></p>
+		<p><input type="submit" value="submit"/></p>
 
 	</form>
 {% endblock%}
